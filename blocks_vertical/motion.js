@@ -27,6 +27,20 @@ goog.require('Blockly.Colours');
 goog.require('Blockly.constants');
 goog.require('Blockly.ScratchBlocks.VerticalExtensions');
 
+// SF: NEW
+Blockly.Blocks['motion_move100steps'] = {
+  /**
+   * Block to move 100 steps.
+   * @this Blockly.Block
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": Blockly.Msg.MOTION_MOVE100STEPS,
+      "category": Blockly.Categories.motion,
+      "extensions": ["colours_motion", "shape_statement"]
+    });
+  }
+};
 
 Blockly.Blocks['motion_movesteps'] = {
   /**
