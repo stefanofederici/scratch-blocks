@@ -4888,7 +4888,8 @@ Blockly.ScratchMsgs.locales["el"] =
 
 Blockly.ScratchMsgs.locales["en"] =
 {
-    "CONTROL_FOREVER": "for1ever",
+    "CONTROL_FOREVER": "forever",
+    "CONTROL_FOREVERIF": 'forever if %1',
     "CONTROL_REPEAT": "repeat %1",
     "CONTROL_IF": "if %1 then",
     "CONTROL_ELSE": "else",
