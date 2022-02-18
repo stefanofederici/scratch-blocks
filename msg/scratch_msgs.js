@@ -4900,7 +4900,7 @@ Blockly.ScratchMsgs.locales["en"] =
     "CONTROL_WAIT": "wait %1 seconds",
     "CONTROL_WAITUNTIL": "wait until %1",
     "CONTROL_REPEATUNTIL": "repeat until %1",
-    "CONTROL_WHILE": "while %1",
+    "CONTROL_WHILE": "forever if %1",
     "CONTROL_FOREACH": "for each %1 in %2",
     "CONTROL_STARTASCLONE": "when I start as a clone",
     "CONTROL_CREATECLONEOF": "create clone of %1",
