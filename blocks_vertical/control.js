@@ -382,7 +382,7 @@ Blockly.Blocks['control_while'] = {
         }
       ],
       "category": Blockly.Categories.control,
-      "extensions": ["colours_control", "shape_step"]
+      "extensions": ["colours_control", "shape_end"]
     });
   }
 };
