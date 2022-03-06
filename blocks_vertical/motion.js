@@ -28,6 +28,7 @@ goog.require('Blockly.constants');
 goog.require('Blockly.ScratchBlocks.VerticalExtensions');
 
 // SF: NEW
+/*
 Blockly.Blocks['motion_move100steps'] = {
   /**
    * Block to move 100 steps.
@@ -41,6 +42,7 @@ Blockly.Blocks['motion_move100steps'] = {
     });
   }
 };
+*/
 
 Blockly.Blocks['motion_movesteps'] = {
   /**
