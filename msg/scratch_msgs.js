@@ -4889,7 +4889,9 @@ Blockly.ScratchMsgs.locales["el"] =
 Blockly.ScratchMsgs.locales["en"] =
 {
     "CONTROL_FOREVER": "forever",
-    "CONTROL_FOREVERIF": 'forever if %1',
+    // SF: ADDED
+    "CONTROL_FOREVERIF": "forever if %1",
+  
     "CONTROL_REPEAT": "repeat %1",
     "CONTROL_IF": "if %1 then",
     "CONTROL_ELSE": "else",
@@ -4989,7 +4991,7 @@ Blockly.ScratchMsgs.locales["en"] =
     "LOOKS_PREVIOUSBACKDROP": "previous backdrop",
     "LOOKS_RANDOMBACKDROP": "random backdrop",
   	// SF: NEW
-		"MOTION_MOVE100STEPS": "move 100 steps",
+		//"MOTION_MOVE100STEPS": "move 100 steps",
 
     "MOTION_MOVESTEPS": "move %1 steps",
     "MOTION_TURNLEFT": "turn %1 %2 degrees",
@@ -9772,6 +9774,9 @@ Blockly.ScratchMsgs.locales["is"] =
 Blockly.ScratchMsgs.locales["it"] =
 {
     "CONTROL_FOREVER": "per sempre",
+    // SF: ADDED:
+    "CONTROL_FOREVERIF": "per sempre quando %1",
+  
     "CONTROL_REPEAT": "ripeti %1  volte",
     "CONTROL_IF": "se %1 allora",
     "CONTROL_ELSE": "altrimenti",
